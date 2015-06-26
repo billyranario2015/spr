@@ -1,0 +1,75 @@
+@gray : #666666;
+@purple : #E200E8;
+
+/* Import Fonts */
+@font-face {
+    font-family: 'open-sans';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype')
+}
+body {
+	footer {
+		div.container {
+			div.social-links {
+				margin: 47px 0;
+				text-align: center;
+
+				ul {
+					li {
+						a{
+							i {
+								font-size: 21px;
+								border: 1px solid;
+								padding: 9px;
+								border-radius: 50%;
+								width: 40px;
+								height: 40px;
+								background-color: #fff;
+							}
+						}
+						a:hover {
+							i {
+								background-color: @purple;
+								color: #fff;
+							}
+						}
+					}
+				}
+			}
+			div.menu {
+				text-align: center;
+				padding: 15px 0;
+				min-height: 100px;
+
+				ul {
+					display: inline-block;
+					float: none;
+					vertical-align: top; 
+
+					li {
+						padding: 5px 11px;
+						border-left: 1px solid #CFC9C9;
+						transition: box-shadow 0.2s;
+						float: left;
+
+						a {
+							text-decoration: none;
+							color: #666666;
+						}
+					}
+					li:last-child {
+						border-right: 1px solid #CFC9C9;					
+					}
+					li:hover {
+						border-bottom: 4px solid @purple;
+					}
+				}
+			}
+		}
+		div.copyright {
+			padding: 50px 0;
+			background-color: #666666;
+			color: #fff;
+			border-top: 5px solid #EFC9F2;
+		}	
+	}
+}

@@ -1,0 +1,67 @@
+body header section.navbar div#main-menu-container div.navbar-header a.navbar-brand {
+  padding: 0;
+}
+body header section.navbar div#main-menu-container nav#main-menu-wrapper ul#main-menu > li {
+  color: #666666;
+}
+body header section.navbar div#main-menu-container nav#main-menu-wrapper ul#main-menu > li > a {
+  padding: 0 !important;
+  display: inline-block;
+  font-size: 14px;
+}
+body header section.navbar div#main-menu-container nav#main-menu-wrapper ul#main-menu > li ul li a {
+  padding: 10px 15px;
+  color: #666666;
+}
+body header section.navbar div#main-menu-container nav#main-menu-wrapper ul#main-menu > li ul li a:hover {
+  background-color: #e200e8;
+  color: #fff;
+}
+body section#main-container div.container {
+  color: #666666;
+}
+body section#main-container div.container div.exam-lists form div.btn-proceed {
+  padding: 20px 0;
+}
+body section#main-container div.container div.begin-test div.confirm-panel {
+  background-color: #EFC9F2;
+}
+body section#main-container div.container div.begin-test div.confirm-panel p {
+  /*color: #fff;*/
+  margin-bottom: 20px;
+}
+body section#main-container div.container div.begin-test div.confirm-panel a button.btn-proceed {
+  background-color: #E200E8;
+  border: 1px solid #EFC9F2;
+}
+body section#main-container div.container div.questions div.questionaires form {
+  margin-top: 60px;
+}
+body section#main-container div.container div.questions div.questionaires form div.q-box div.checkbox,
+body section#main-container div.container div.questions div.questionaires form div.q-box div.radio {
+  padding-left: 25px;
+}
+body section#main-container div.container div.questions div.questionaires form div.btn-submit {
+  margin-top: 25px;
+}
+body section#main-container div.container div.confirm-submit {
+  margin-bottom: 60px;
+}
+body section#main-container div.container div.confirm-submit div.exam-details {
+  margin-top: 40px;
+}
+body section#main-container div.container div.confirm-submit div.exam-details ul {
+  border: 1px solid #eee;
+  width: 258px;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+body section#main-container div.container div.result-panel {
+  margin-top: 40px;
+}
+body section#main-container div.container div.result-panel div.btn-action {
+  overflow: hidden;
+  margin-bottom: 45px;
+  margin-top: 25px;
+}

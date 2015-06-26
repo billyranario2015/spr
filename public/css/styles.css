@@ -1,0 +1,54 @@
+/* Import Fonts */
+@font-face {
+  font-family: 'open-sans';
+  src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+body footer div.container div.social-links {
+  margin: 47px 0;
+  text-align: center;
+}
+body footer div.container div.social-links ul li a i {
+  font-size: 21px;
+  border: 1px solid;
+  padding: 9px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+}
+body footer div.container div.social-links ul li a:hover i {
+  background-color: #e200e8;
+  color: #fff;
+}
+body footer div.container div.menu {
+  text-align: center;
+  padding: 15px 0;
+  min-height: 100px;
+}
+body footer div.container div.menu ul {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+body footer div.container div.menu ul li {
+  padding: 5px 11px;
+  border-left: 1px solid #CFC9C9;
+  transition: box-shadow 0.2s;
+  float: left;
+}
+body footer div.container div.menu ul li a {
+  text-decoration: none;
+  color: #666666;
+}
+body footer div.container div.menu ul li:last-child {
+  border-right: 1px solid #CFC9C9;
+}
+body footer div.container div.menu ul li:hover {
+  border-bottom: 4px solid #e200e8;
+}
+body footer div.copyright {
+  padding: 50px 0;
+  background-color: #666666;
+  color: #fff;
+  border-top: 5px solid #EFC9F2;
+}

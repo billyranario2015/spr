@@ -1,0 +1,110 @@
+@gray : #666666;
+@purple : #E200E8;
+
+body {
+	header {
+		section.navbar {
+			div#main-menu-container {
+				div.navbar-header {
+					a.navbar-brand  {
+						padding: 0;
+					}
+				}
+				nav#main-menu-wrapper {
+					ul#main-menu {
+						> li {
+							color: @gray;
+
+							> a {
+								padding: 0 !important;
+								display: inline-block;
+								font-size: 14px;
+							}
+							ul {
+								li {
+									a {
+										padding: 10px 15px;
+										color: @gray
+									}
+									a:hover {
+										background-color: @purple;
+										color: #fff;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	section#main-container {
+		div.container {
+			color: @gray; 
+
+			div.exam-lists {
+				form {
+					div.btn-proceed {
+						padding: 20px 0;
+					}
+				}
+			}
+			div.begin-test {
+				div.confirm-panel {
+					background-color: #EFC9F2;
+
+					p {
+						/*color: #fff;*/
+						margin-bottom: 20px;
+					}
+					a {
+						button.btn-proceed {
+							background-color: #E200E8;
+							border: 1px solid #EFC9F2;
+						}
+					}
+				}
+			}
+			div.questions {
+				div.questionaires {
+					form {
+						margin-top: 60px;
+
+						div.q-box {
+							div.checkbox,div.radio {
+								padding-left: 25px;
+							}
+						}
+						div.btn-submit {
+							margin-top: 25px;
+						}
+					}
+				}
+			}
+			div.confirm-submit {
+				margin-bottom: 60px;
+
+				div.exam-details {
+					margin-top: 40px;
+
+					ul {
+						border: 1px solid #eee;
+						width: 258px;
+						border-radius: 4px;
+						padding: 10px;
+						margin-bottom: 25px;
+					}
+				}
+			}
+			div.result-panel {
+				margin-top: 40px;
+
+				div.btn-action {
+					overflow: hidden;
+					margin-bottom: 45px;
+					margin-top: 25px;
+				}
+			}
+		}
+	}
+}

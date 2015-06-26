@@ -1,0 +1,29 @@
+body {
+  color: #4d4d4d;
+}
+body header {
+  border-top: 5px solid #e200e8;
+  padding-top: 30px;
+}
+body section#main-container div.container div.panel-register {
+  overflow: hidden;
+  padding-top: 30px;
+}
+body section#main-container div.container div.panel-register div.auth-form h4 {
+  margin-bottom: 30px;
+  padding-left: 15px;
+}
+body section#main-container div.container div.panel-register div.auth-form form div.action-button {
+  margin-top: 23px;
+}
+body section#main-container div.container div.panel-register div.form-reg {
+  min-height: 440px;
+}
+body section#main-container div.container div.panel-register div.form-login {
+  overflow: hidden;
+  min-height: 400px;
+}
+body section#main-container div.container div.panel-register div.form-login form div.input-form {
+  width: 268px;
+  margin: auto;
+}
